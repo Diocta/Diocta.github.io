@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.4rem 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(120, 107, 107);
+    z-index: 999;
+    background-color: rgb(90, 90, 230);;
+}
+
+nav .logo {
+    width: 150px;
+}
+
+nav .navbar-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    margin: 1rem;
+}
+
+nav .navbar-nav a:hover {
+    color: rgb(222, 60, 60);
+}
+
+nav .navbar-nav a::after {
+    content: '';
+    display: block;
+    padding-bottom: o.5rem;
+    border-bottom: 0.1rem solid rgb(222, 60, 60);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+nav .navbar-nav a:hover::after {
+    transform: scaleX(0.6);
+}
+
+nav .navbar-icons a {
+    color: #fff;
+}
+
+nav .navbar-icons a:hover {
+    color: #dedede;
+}
+
+#menu-icons {
+    display: none;
+}
+
+  
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(90, 90, 230);;
+    color: #fff;
+}
+    
+.profile {
+    background-color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+    
+.profile-picture {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+    margin-top: 10rem;
+}
+    
+.profile-info {
+    margin-top: 20px;
+    color: black;
+}
+    
+.skills,
+.contact {
+    background-color: #fff;
+    padding: 2em 0;
+}
+    
+.skills h2,
+.contact h2 {
+    color: #333;
+}
+    
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+    
+.container ul li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+    
+ul li:last-child {
+    margin-right: 0;
+}
+    
+a {
+    margin: 10px 0;
+    color: black;
+}
+    
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 850px;
+    background-color: #fff;
+}
+  
+.skills {
+    margin-left: 100px;
+    background-color: #fff;
+}
+
+/* media queris */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    #menu-icons {
+        display: inline-block;
+      }
+      
+      nav .navbar-nav {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #fff;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+      }
+    
+      nav .navbar-nav.active {
+        right: 0;
+      }
+    
+      nav .navbar-nav a {
+        color: black;
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+      }
+    
+      nav .navbar-nav a::after{
+        transform-origin: 0 0;
+      }
+    
+      nav .navbar-nav a:hover::after{
+        transform: scaleX(0.2);
+      }
+    }
+
+/* HP */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+

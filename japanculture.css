@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 120vh;
+    background-image: url(asset/aerial-view-tokyo-cityscape-with-fuji-mountain-japan.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.4rem 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(120, 107, 107);
+    z-index: 999;
+}
+
+nav .logo {
+    width: 150px;
+}
+
+nav .navbar-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    margin: 1rem;
+}
+
+nav .navbar-nav a:hover {
+    color: rgb(222, 60, 60);
+}
+
+nav .navbar-nav a::after {
+    content: '';
+    display: block;
+    padding-bottom: o.5rem;
+    border-bottom: 0.1rem solid rgb(222, 60, 60);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+nav .navbar-nav a:hover::after {
+    transform: scaleX(0.6);
+}
+
+nav .navbar-icons a {
+    color: #fff;
+}
+
+nav .navbar-icons a:hover {
+    color: #dedede;
+}
+
+.container .row .col1 {
+    position: relative;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 6vh;
+}
+
+.container .row .col1 h1 {
+    color: #fff;
+    font-size: 5rem;
+}
+
+.container .row .col1 h1 span {
+    color: rgb(222, 60, 60);
+}
+
+.container .col2 .card {
+    margin-top: 10px;
+}
+
+.text {
+    text-decoration: none;
+    border: 4px #fff;
+    border-radius: 10px;
+}
+
+.card1 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-image: url(asset/Geisha.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card2 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-image: url(asset/Matsuri\ festival.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card3 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-image: url(asset/Sadou.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card4 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-image: url(asset/Kimono\ festival.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card5 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-image: url(asset/Tako.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card6 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-image: url(asset/japanese-aesthetic-with-fans-bird.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card7 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-image: url(asset/Hanami.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card8 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-image: url(asset/Hanabi.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card9 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-image: url(asset/samurai.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card10 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-image: url(asset/sumo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card11 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-image: url(asset/onsen.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card12 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    background-image: url(asset/shodo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#menu-icons {
+    display: none;
+    }
+
+/* media queris */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    #menu-icons {
+        display: inline-block;
+      }
+      
+      nav .navbar-nav {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #fff;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+      }
+    
+      nav .navbar-nav.active {
+        right: 0;
+      }
+    
+      nav .navbar-nav a {
+        color: black;
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+      }
+    
+      nav .navbar-nav a::after{
+        transform-origin: 0 0;
+      }
+    
+      nav .navbar-nav a:hover::after{
+        transform: scaleX(0.2);
+      }
+
+      .container {
+        height: 270vh;
+      }
+    }
+
+/* HP */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+
