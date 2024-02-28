@@ -1,0 +1,110 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url(User/asset/aerial-view-tokyo-cityscape-with-fuji-mountain-japan.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px 0 15px;
+}
+
+.container {
+  background-color: rgba(220, 220, 220, 0.7);
+  border-radius: 10px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+
+.user {
+  height: 45px;
+  width: 87%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 0 0 0 45px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+}
+.email {
+  height: 45px;
+  width: 87%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 0 0 0 45px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+}
+.name {
+  height: 45px;
+  width: 87%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 0 0 0 45px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+}
+.notelp {
+  height: 45px;
+  width: 87%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 0 0 0 45px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+}
+
+.pass {
+  height: 45px;
+  width: 87%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 0 0 0 45px;
+  margin-top: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+}
+
+button {
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  height: 45px;
+  outline: none;
+  width: 100%;
+  margin-top: 15px;
+  background: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.forgot {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
