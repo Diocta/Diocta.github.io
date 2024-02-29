@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px 0 15px;
+}
+select {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 0 10px;
+  color: #8e8e8e;
+}
+option {
+  background: #fff;
+  color: black;
+}
+select {
+  transform: scale(1.05);
+  transition: all 1s ease-in-out;
+  transition: all 1s ease-out;
+}
